@@ -1,0 +1,758 @@
+/* PARTE DO FOOTER */
+
+@font-face {
+    font-family: AfacadFlux-Regular;
+    src: url("Fontes/AfacadFlux-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: AfacadFlux-Regular;
+}
+
+footer{
+    background-color: #482304;
+    color: #ffc704;
+    display: flex;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+
+.nossasRedes, .contatos, .nossaLocalizacao{
+    display: flex;
+    height: 450px;
+    width: 320px;
+    flex-direction: column;
+}
+
+.imgFooter{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.copyright{
+    height: 15px;
+    width: 15px;
+}
+
+.localizacao, .tiktok, .instagram, .facebook, .x, .linkedin, .ifood, .whatsapp, .telefoneFooter, .emailFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tiktok{
+    width: 100px;
+    margin-top: 15px;
+}
+
+.instagram{
+    width: 100px;
+}
+
+.facebook{
+    width: 100px;
+}
+
+.x{
+    width: 70px;
+}
+
+.linkedin{
+    width: 120px;
+}
+
+.ifood{
+    width: 100px;
+}
+
+.informacoesFooter{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 20px;
+}
+
+.imgNossasRedes{
+    height: 35px;
+    width: 250px;
+}
+
+.imgContatos{
+    height: 40px;
+    width: 300px;
+}
+
+.imgLocalizacao{
+    height: 35px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.telefoneFooter{
+    width: 150px;
+}
+
+.whatsapp{
+    width: 200px;
+    margin-top: 15px;
+}
+
+.emailFooter{
+    width: 290px;
+}
+
+.linha-vertical{
+    border: 2px solid #ffc704;
+    height: 450px;
+}
+
+.outrasInformacoes{
+    display: flex;
+    width: 700px;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.informacao{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.linha-horizontal{
+    border: 2px solid #ffc704;
+    width: 1300px;
+}
+
+.info{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.imgFooter1{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter2{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter3{
+    height: 45px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+/* COMEÇANDO AGORA A PARTE PRINCIPAL DO SITE */
+
+body{
+    background-color: #E8DED4;
+}
+
+.titulo{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+.infoLogin{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 1300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.cpf{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.endereco{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.telefone{
+    width: 500px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.email{
+    width: 600px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.curriculo{
+    width: 500px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.info1{
+    height: 90px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info2{
+    height: 90px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info3{
+    height: 90px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgPessoa{
+    height: 55px;
+    width: 55px;
+}
+
+.imgTel{
+    height: 55px;
+    width: 55px;
+}
+
+.imgEscrevendo{
+    height: 55px;
+    width: 55px;
+}
+
+.imgMail{
+    height: 55px;
+    width: 55px;
+}
+
+.imgCasa{
+    height: 55px;
+    width: 55px;
+}
+
+.imgCurriculo{
+    height: 55px;
+    width: 55px;
+}
+
+input{
+    border: 2px solid #482304;
+    background-color: #E8DED4;
+    border-radius: 25px;
+    margin-left: 10px;
+    height: 55px;
+    width: 1000px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+::placeholder{
+    color: #48230461;
+}
+
+input[type="file"]{
+    width: 500px;
+    display: flex;
+}
+
+.sla{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dataDeNascimento{
+    width: 400px;
+    text-align: center;
+}
+
+.dia{
+    width: 80px;
+    margin-top: 15px;
+    background-color: #482304;
+    color: #ffc704;
+    margin-left: 0px;
+    height: 44px;
+}
+
+.meses{
+    width: 125px;
+    height: 45px;
+    background-color: #482304;
+    border-radius: 20px;
+    font-family: AfacadFlux-Regular;
+    font-size: 20px;
+    color: #ffc90467;
+    padding-left: 15px;
+}
+
+option{
+    color: #ffc704;
+}
+
+.ano{
+    width: 100px;
+    margin-top: 15px;
+    background-color: #482304;
+    color: #ffc704;
+    height: 44px;
+}
+
+.dia::placeholder{
+    color: #ffc90467;
+}
+
+.ano::placeholder{
+    color: #ffc90467;
+}
+
+.nada{
+    color: #ffc90467;
+}
+
+.btnSim{
+    margin-left: 35px;
+}
+
+.button{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.linha-decorativa{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.subtitulo, .subtitulo2{
+    text-align: center;
+}
+
+.arrumar{
+    margin-top: 350px;
+}
+
+.setores{
+    height: 200px;
+    width: 1500px;
+    justify-items: center;
+    align-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.firstSetor{
+    height: 100px;
+    display: flex;
+    width: 1150px;
+    align-items: center;
+}
+
+.secondSetor{
+    height: 100px;
+    display: flex;
+    width: 1150px;
+    align-items: center;
+}
+
+input[type="radio"]{
+    height: 35px;
+    width: 50px;
+    color: #482304;
+    border: 1px solid black;
+}
+
+.fim{
+    margin-bottom: 40px;
+    justify-items: center;
+    height: 150px;
+    text-align: center;
+}
+
+.finalizar{
+    font-weight: 100;
+    font-size: 25px;
+    color: #482304;
+}
+
+strong{
+    color: #ffc704;
+    font-weight: 100;
+}
+
+.btnFim{
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #482304;
+    color: #ffc704;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btnFim:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.meo{
+    font-size: 20px;
+    color: #482304;
+    font-weight: 500;
+    margin: auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitulo2, .subtitulo{
+    color: #482304;
+}
+
+.ncssEsp, .nascimento{
+    color: #482304;
+}
+
+input{
+    cursor: pointer;
+}
+
+.necessidades{
+    justify-items: center;
+}
+
+.opcoes-necessidades{
+    background-color: #ffc704;
+    height: 400px;
+    width: 1000px;
+    border-radius: 30px;
+}
+
+.opcoes{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.op1{
+    margin: auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 20px;
+    color: #482304;
+}
+.op2{
+    margin: auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 20px;
+    color: #482304;
+}
+
+.op3{
+    margin: auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 20px;
+    color: #482304;
+}
+
+select{
+    cursor: pointer;
+}
+
+/* PARTE DO MENU */
+
+.Menu {
+    background-color: #482304; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 250px;
+    }
+    .teste{
+    position: fixed;
+     z-index: 1000; /* Para garantir que a imagem fique sobre outros elementos */
+     width: 100%;
+     bottom: 500px;
+    }
+    .logoMenu {
+    align-items:center;
+    justify-content: center;
+    margin-top: 65px;
+    }
+    .itens {
+    display: flex;
+    margin-right: 90px;
+    margin-top: 40px;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    }
+    .porta {
+    display:flex;
+    margin-left: 90px; 
+    margin-top: 40px;
+    }
+    .entrar {
+    display: flex;
+    margin-right: 70px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: AfacadFlux-Regular; /* Mudar o nome da fonte para como vc escreveu*/
+    cursor: pointer;
+    }
+    .cadastrar {
+        display: flex;
+        margin-right: 70px;
+        margin-top: 40px;
+        border: 1px solid #ffc704;
+        background-color: #ffc704;
+        border-radius: 20px;
+        padding: 9px;
+        width: 165px;
+        display: inline-block;
+        text-align: center;
+        font-size: 35px;
+        cursor: pointer;
+        font-family: AfacadFlux-Regular;/* Mudar o nome da fonte para como vc escreveu*/
+        }
+    bt{
+        font-family: AfacadFlux-Regular;/* Mudar o nome da fonte para como vc escreveu*/
+        color: #482304;
+        background-color: #FFC704;
+        width: 186px;
+        height: 38.4px;
+        border-radius: 40px;
+        font-size: 20.6px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -19px;
+    }
+    nav a {
+    margin: 0 30px;
+    background-color: #482304;
+    color: #FFC704;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 140px;
+    font-family: AfacadFlux-Regular;/* Mudar o nome da fonte para como vc escreveu*/
+    font-size: 23px;
+    }
+    .cadastrar:hover {
+        color: white;
+        box-shadow: inset 0 4px 15px -5px rgba(0, 0, 0, 0.7); /* 
+        inset: faz a sombra parecer interna
+        0: deslocamento horizontal (sem deslocamento)
+        4px: deslocamento da sombra para baixo
+        15px: raio de desfoque da sombra (aumentado para suavizar)
+        -5px: valor negativo para contrair a sombra para dentro
+        rgba(0, 0, 0, 0.7): cor da sombra (preto com 70% de opacidade)
+    */
+    }
+    
+    .promo1 {
+        font-family: AfacadFlux-Regular;/* Mudar o nome da fonte para como vc escreveu*/
+        font-weight: 600;
+            color: #ffc704;
+            }
+    
+    .tx{
+        display: flex;
+        height: 10px;
+        color: white;
+        margin-top: 30px;
+        font-family: AfacadFlux-Regular;/* Mudar o nome da fonte para como vc escreveu*/
+    }
+    .taxado {
+        color: white;
+        margin-top: 15px;
+    }
+    
+    .novo {
+        color: white;
+        margin-top: 5px;
+    }
+    
+    span {
+        color:#19CF15;
+        }
+    
+    
+        .ho {
+            font-size: 40px;
+            margin-left: 22px;
+            color: #FFC704;
+        }
+    
+        .icon {
+            font-size: 25px; 
+            font-weight: bold;
+    
+        }
+    
+    
+        
+        .subir:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+
+        .subir{
+            cursor: pointer;
+        }
+    
+        .m {
+        color: #FFC704;
+        position: relative;
+        right: 75px;
+        margin-top: 40px;
+        }
+    
+        .loc:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .loca:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .it:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .caf:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        
+        .seg:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .botao-com-icone:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    .container { 
+        margin: 0; /* Remove a margem entre os botões */
+        text-align: center;
+        margin-top: -5px;
+        height: 65px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        display: flex;
+    }
+    a {
+        text-decoration:none;
+        color:#ffc704;
+        margin-right: 35px;
+    }
+    ul {
+        list-style-type: none; /* Remove as bolinhas */
+        padding: 0; /* Remove o preenchimento padrão */
+        margin: 0; /* Remove a margem padrão */
+    }
+    li {
+        display: inline;
+      }

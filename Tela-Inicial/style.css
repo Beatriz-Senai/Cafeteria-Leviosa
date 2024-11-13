@@ -1,0 +1,1053 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "AfacadFlux-Regular";
+    font-size: 20px;
+    font-weight: 5;
+}
+.Menu {
+background-color: #482304; 
+justify-content: center;
+display: flex;
+align-items: center;
+color: white;
+font-size: 20px;
+height: 250px;
+}
+.teste{
+    position: fixed;
+ z-index: 1; /* Para garantir que a imagem fique sobre outros elementos */
+ width: 100%;
+ bottom: 500px;
+}
+
+.logo {
+align-items:center;
+justify-content: center;
+margin-top: 65px;
+}
+.itens {
+display: flex;
+margin-right: 90px;
+margin-top: 40px;
+margin-left: 9px;
+display: flex;
+align-items: center;
+}
+.porta {
+display:flex;
+margin-left: 90px; 
+margin-top: 40px;
+}
+
+#entrar {
+display: flex;
+margin-right: 70px;
+margin-top: 40px;
+font-size: 35px;
+font-family: "AfacadFlux-Regular";
+cursor: pointer;
+background-color: transparent;
+color: white;
+}
+.entraConta{
+    cursor: pointer;
+    color: #482304;
+    font-size: 25px;
+}
+.modal2 .redesEntre{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 20px 15px 0;
+    font-size: 24px;
+    font-family: "AfacadFlux-Regular";
+    color: #482304;
+}
+.cadastrar {
+    display: flex;
+    margin-right: 70px;
+    margin-top: 40px;
+    border: 1px solid #ffc704;
+    background-color: #ffc704;
+    border-radius: 20px;
+    padding: 9px;
+    width: 165px;
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+    }
+body{
+    background-color:#E8DED4;
+    align-items: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: "AfacadFlux-Regular";
+    src: url("fontes/AfacadFlux-Regular.ttf");
+}
+    /* Estilo para o modal */
+.modal {
+    display: none; /* Inicialmente o modal está oculto */
+    position: fixed; /* Fixa o modal na tela */
+    z-index: 2; /* Garante que o modal fique acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    backdrop-filter: blur(5px); /* Nível de desfoque */
+    align-items: center;
+    border: 2px solid black;
+}
+.inicio{
+    height: 40px;
+}
+#criCont{
+    background-color: transparent;
+    cursor: pointer;
+    color: #482304;
+    font-size: 25px;
+}
+/* Estilo para o conteúdo do modal */
+.modal-content {
+    background-color: #E8DED4;
+    margin: 60px 450px;
+    padding: 40px;
+    border-radius: 20px;
+    height: 750px;
+    width: 600px;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+}
+/* Estilo para o botão de fechar */
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h3{
+    font-family: "AfacadFlux-Regular";
+    margin-top: 10px;
+    color: #482304;
+    font-weight: 200;
+    font-size: 25px;
+}
+.login{
+    margin: 30px 0 0 0;
+}
+.login img{
+    background-color: #482304;
+    border-radius: 50px;
+    padding: 10px;
+    height: 50px;
+}
+input{
+    height: 50px;
+    width: 370px;
+    padding: 0 20px 0 15px;
+    text-align: left;
+    justify-content: center;
+    color: #482304;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px solid #482304;
+    font-size: 17px;
+    margin-left: 7px;
+    font-family: "AfacadFlux-Regular";
+}
+.user{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.senha{
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+.modal .login {
+    margin-top: 30px;
+}
+.nasc{
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    margin-bottom: 30px;
+}
+.modal2 .login .user, .senha{
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.esqSenha{
+    text-align: left;
+    margin: 18px 0 30px 100px;
+    border-bottom: 1px solid #482304;
+    width: 170px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "AfacadFlux-Regular";
+    color: #482304;
+}
+.entCad{
+    padding: 17px 90px;
+    border-radius: 17px;
+    margin: 0 0 25px 110px;
+    background-color: #ffc704;
+    display: flex;
+   flex-direction: column-reverse;
+   cursor: pointer;
+   align-self: center;
+}
+.continuar{
+    padding: 17px 90px;
+    border-radius: 17px;
+    margin: 0 0 25px 0;
+    background-color: #ffc704;
+    align-self: center;
+   flex-direction: column-reverse;
+   cursor: pointer;
+}
+.modal2{
+    display: flex;
+}
+.redesEntre{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 30px 15px 0;
+    font-size: 24px;
+    font-family: "AfacadFlux-Regular";
+    color: #482304;
+}
+.goog{
+    margin-right: 23px;
+    height: 75px;
+}
+.link{
+    margin-right: 23px;
+    height: 75px;
+}
+.face{
+    margin-right: 23px;
+    height: 75px;
+}
+.redes{
+    margin: 0 0 10px 0;
+} 
+.criaConta{
+    margin-bottom: 60px;
+    border-bottom: 2px #482304;
+    font-size: 26px;
+    color: #482304;
+}
+.container { 
+    margin: 0; /* Remove a margem entre os botões */
+    text-align: center;
+    margin-top: -5px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+}
+a {
+    text-decoration:none;
+    color:#ffc704;
+    margin-right: 35px;
+    font-size: 20px;
+    font-family: "AfacadFlux-Regular";
+}
+ul {
+    list-style-type: none; /* Remove as bolinhas */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
+    }
+    li {
+        display: inline;
+      }
+
+
+    /* Estilos do contêiner do carrossel */
+    .carrossel {
+        position: relative; /* Permite posicionar os botões relativos ao carrossel */
+        width: 90%; 
+        height: 455px;
+        margin: 0 auto; /* Centraliza o carrossel na página */
+        overflow: hidden; /* Oculta as imagens que estão fora da área visível */
+        border-radius: 8px; /*Bordas arredondadas */
+        margin-top: 300px ;
+    }
+    
+    /* Estilo para o contêiner das imagens */
+    .slides {
+        display: flex; /* Exibe as imagens em uma linha horizontal */
+        transition: transform 0.9s ease; /* Adiciona animação ao transitar entre as imagens */
+        cursor: pointer;
+    }
+    
+    /* Estilo individual para cada imagem */
+    .slide {
+        min-width: 100%; /* Faz com que cada imagem ocupe 100% da largura do carrossel */
+        display: block; /* Exibe cada imagem como um bloco */
+        height: 455px;
+     
+    }
+    
+    /* Estilos para os botões de navegação */
+    .prev, .next {
+        position: absolute; /* Posiciona os botões em relação ao contêiner do carrossel */
+        top: 50%; /* Alinha verticalmente no meio */
+        transform: translateY(-50%); /* Ajusta a posição para centralizar verticalmente */
+        background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+        color: white; /* Cor do texto dos botões */
+        border: none; /* Remove bordas do botão */
+        padding: 10px; /* Adiciona espaçamento interno ao botão */
+        cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    }
+    
+    /* Posição específica dos botões de navegação */
+    .prev {
+        left: 10px; /* Posiciona o botão "anterior" à esquerda */
+    }
+    
+    .next {
+        right: 10px; /* Posiciona o botão "próximo" à direita */
+    }
+    .fundo {
+        background-color: #ffc704;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 100px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        height: 300px;
+    }
+.slogan {
+width: 900px;
+margin-top: 20px;
+}
+
+.ofertas {
+width: 620px;
+margin: 55px;
+align-items: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@font-face {
+    font-family: "AfacadFlux-Regular";
+    src: url("AfacadFlux-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "AfacadFlux-Regular";
+}
+
+footer{
+    background-color: #482304;
+    color: #ffc704;
+    display: flex;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.logo{
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+
+.nossasRedes, .contatos, .nossaLocalizacao{
+    display: flex;
+    height: 450px;
+    width: 320px;
+    flex-direction: column;
+}
+
+.imgFooter{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.copyright{
+    height: 15px;
+    width: 15px;
+}
+
+.localizacao, .tiktok, .instagram, .facebook, .x, .linkedin, .ifood, .whatsapp, .telefoneFooter, .emailFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tiktok{
+    width: 100px;
+    margin-top: 15px;
+}
+
+.instagram{
+    width: 100px;
+}
+
+.facebook{
+    width: 100px;
+}
+
+.x{
+    width: 70px;
+}
+
+.linkedin{
+    width: 120px;
+}
+
+.ifood{
+    width: 100px;
+}
+
+.informacoesFooter{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.modal-content p{
+    font-size: 20px;
+    font-family: "AfacadFlux-Regular";
+}
+
+.imgNossasRedes{
+    height: 35px;
+    width: 250px;
+}
+
+.imgContatos{
+    height: 40px;
+    width: 300px;
+}
+
+.imgLocalizacao{
+    height: 35px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.Imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.telefoneFooter{
+    width: 150px;
+}
+
+.whatsapp{
+    width: 200px;
+    margin-top: 15px;
+}
+
+.emailFooter{
+    width: 290px;
+}
+
+.linha-vertical{
+    border: 2px solid #ffc704;
+    height: 450px;
+}
+
+.outrasInformacoes{
+    display: flex;
+    width: 700px;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.informacao{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.linha-horizontal{
+    border: 2px solid #ffc704;
+    width: 1300px;
+}
+
+.info{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.imgFooter1{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter2{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter3{
+    height: 45px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.combo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    Width: 292px; 
+    Height: 508px;
+    background-color: #482304;
+    padding: 25px 25px 27px;
+        margin: 0px 100px;
+}
+.trevas{
+    Width: 229.25px; 
+    Height: 230.4px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.nome{
+    display: flex;
+    font-family: "AfacadFlux-Bold";
+    font-size: 32px;
+    color: #ffc704;
+    margin-bottom: 7px;
+    font-weight: 100;
+}
+.descricao{
+    display: flex;
+    font-family: 'AfacadFlux-Bold';
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    text-align: justify;
+}
+.com{
+    margin: 7px;
+    Width: 225px; 
+    Height: 250px;
+    border: 2px solid #FFC704; 
+    padding: 9px;           
+}
+bt{
+    font-family: 'bold';
+    color: #482304;
+    background-color: #FFC704;
+    width: 186px;
+    height: 38.4px;
+    border-radius: 40px;
+    font-size: 20.6px;
+}
+
+@font-face {
+    font-family: "AfacadFlux-Bold";
+    src: url("AfacadFlux-Bold.ttf");
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: -19px;
+}
+nav a {
+margin: 0 30px;
+background-color: #482304;
+color: #FFC704;
+padding: 15px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 130px;
+}
+.cadastrar:hover {
+    color: white;
+    box-shadow: inset 0 4px 15px -5px rgba(0, 0, 0, 0.7); /* 
+    inset: faz a sombra parecer interna
+    0: deslocamento horizontal (sem deslocamento)
+    4px: deslocamento da sombra para baixo
+    15px: raio de desfoque da sombra (aumentado para suavizar)
+    -5px: valor negativo para contrair a sombra para dentro
+    rgba(0, 0, 0, 0.7): cor da sombra (preto com 70% de opacidade)
+*/
+}
+
+.promo1 {
+    font-family: "AfacadFlux-Regular";
+    font-weight: 600;
+        color: #ffc704;
+        }
+
+.tx{
+    display: flex;
+    height: 10px;
+    color: white;
+    margin-top: 30px;
+    font-family: "AfacadFlux-Regular";
+}
+.taxado {
+    color: white;
+    margin-top: 15px;
+}
+
+.novo {
+    color: white;
+    margin-top: 5px;
+}
+
+span {
+    color:#19CF15;
+}
+
+bt1 {
+        font-family: 'bold';
+        color: #482304;
+        background-color: #FFC704;
+        width: 186px;
+        height: 38.4px;
+        border-radius: 40px;
+        font-size: 20.6px;
+    }
+    .bolinho {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+        Width: 292px; 
+        Height: 508px;
+        background-color: #482304;
+        padding: 25px 25px 27px;
+        margin: 0px 100px;
+    }
+    .bruxos{
+        Width: 229.25px; 
+        Height: 230.4px;
+        border-radius: 6px;
+        margin-bottom: 40px;
+    }
+
+    .bolo {
+    margin: 7px;
+    Width: 225px; 
+    Height: 250px;
+    border: 2px solid #FFC704; 
+    padding: 9px;           
+} 
+
+.promo2 {
+font-family: "AfacadFlux-Regular";
+font-weight: 600;
+color: #ffc704;
+}
+
+.novo1 {
+color: white;
+margin-top: 5px;
+}
+
+
+
+
+.pizzas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    Width: 292px; 
+    Height: 508px;
+    background-color: #482304;
+    padding: 25px 25px 27px;
+    margin: 0px 100px;
+}
+.alquimicas {
+    Width: 229.25px; 
+    Height: 230.4px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.pi {
+margin: 7px;
+Width: 225px; 
+Height: 250px;
+border: 2px solid #FFC704; 
+padding: 9px;           
+} 
+
+.promo3 {
+font-family: "AfacadFlux-Regular";
+font-weight: 600;
+color: #ffc704;
+}
+
+.novo2 {
+color: white;
+margin-top: 5px;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.conf1 {
+    text-align: center;
+    background-color: #ffc704;
+    border-radius: 25px;
+    padding: 0px 0px; 
+    width: 160px;
+    font-size: 35px;
+    height: 45px;
+    margin: 23px 0px 0px 50px;
+    align-items: center; 
+}
+  
+.conf2 {
+    background-color: #FFC704; 
+    color: white; 
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; 
+    font-size: 16px; 
+    border-radius: 23px; 
+}
+  
+.conf3 {
+    background-color: #FFC704; 
+    color: white; 
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; 
+    font-size: 16px; 
+    border-radius: 23px; 
+}
+
+.marrom {
+    background-color: #482304;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 300px;
+}   
+
+.ven {
+width: 820px;
+margin: 55px;
+align-items: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.des1 {
+align-items: center;
+font-size: 17px;
+color: white;
+text-align: justify;
+margin-top: 26px;
+}
+.conf2 {
+        text-align: center;
+        background-color: #ffc704;
+        border-radius: 25px;
+        padding: 0px 0px; 
+        width: 160px;
+        font-size: 35px;
+        height: 45px;
+        margin-top: 18px;
+        margin-left: 45px;
+    }
+
+        .conf2:hover {
+            box-shadow: rgba(231, 225, 225, 0.25) 0px 25px 50px -12px;;
+        }
+
+        .conf1:hover {
+            box-shadow: rgba(231, 225,225, 0.25) 0px 25px 50px -12px;;
+        }
+
+    .pi1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    Width: 292px; 
+    Height: 545px;
+    background-color: #482304;
+    padding: 25px 25px 27px;
+    margin: 0px 100px;
+}
+.al1 {
+    Width: 229.25px; 
+    Height: 230.4px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+
+    }
+
+    .doce {
+     color: #FFC704; 
+     font-size: 13px;
+      
+    }
+
+    .des2 {
+        align-items: center;
+        font-size: 15px;
+        color: white;
+        text-align: justify;
+        margin-top: 24px;
+    }        
+
+    .tudo1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .fun {
+    display: flex;
+   
+    justify-content: center;
+  
+
+    }
+
+    .caf {
+    width: 500px; 
+    margin-right: 50px; /* Espaçamento entre a imagem e o texto */
+    
+    }
+    
+    .conf3 {
+       
+        background-color: #ffc704;
+        border-radius: 25px;
+        padding: 0px 0px; 
+        width: 195px;
+        font-size: 35px;
+        height: 45px;
+        display: block; 
+        margin: 0 auto;
+        margin-top: 30px;
+
+    }
+     .loc {
+     display: block; 
+     margin: 0 auto;
+     width: 50px;
+     margin-top: 25px;
+ 
+     }
+
+     .loca {
+        background-color: #482304;
+        width: 300px;
+        height: 310px;
+        color: #E8DED4;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+
+     .lt {
+
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1,5;
+    margin-top: 30px;
+
+     }
+
+     .linha {
+    display: block; 
+    margin: 0 auto;
+    margin-top: 60px;
+     } 
+
+
+     .botao-com-icone {
+        width: 300px;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #4A2C0A; 
+        color: #FFD700; 
+        border: none;
+        border-radius: 50px; 
+      
+    }
+
+    .ho {
+        font-size: 40px;
+        margin-left: 22px;
+        color: #FFC704;
+    }
+
+    .icon {
+        font-size: 25px; 
+        font-weight: bold;
+
+    }
+
+    .seg {
+    width: 520px;
+
+    }
+
+    .horarios {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;  
+        margin-top: 30px;
+    }
+
+    .horarios1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; 
+        margin-top: 50px;  
+    }
+
+    .des1:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .des2:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .pi1:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .combo:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .bolinho:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .pizzas:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .conf3:hover {
+        box-shadow: rgba(231, 225, 225, 0.25) 0px 25px 50px -12px;
+    }
+
+    
+    .conf3:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .subir:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .m {
+    color: #FFC704;
+    position: relative;
+    right: 75px;
+    margin-top: 40px;
+    }
+
+    .loc:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .loca:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .it:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .caf:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    
+    .seg:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+
+    .botao-com-icone:hover {
+        transform: scale(1.1); /* Aumenta o botão em 10% */
+    }
+    
+.cadastrar, .subir, .conf3{
+    cursor: pointer;
+}
+
+.conf1, .conf2{
+    cursor: pointer;
+}

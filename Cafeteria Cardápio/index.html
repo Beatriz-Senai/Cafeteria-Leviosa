@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resto">
+    <!-- Menu -->
+
+    <div class="teste">
+        <header class="Menu">
+        <div class="itens">
+        <img src="imagens/moedinha.png" alt="itens" class="itens">
+        <span class="m">0</span>
+        <img src="imagens/carrinho.png" alt="itens" class="itens">
+        <span class="m">0</span>
+        <img src="imagens/coracao.png" alt="itens" class="itens">
+        <span class="m">0</span>
+        </div>
+        
+        <a href="\Tela-Inicial\index.html"><img src="imagens/Logo.png" alt="logo" class="logo"></a>
+        <img src="imagens/porta.png" alt="porta" class="porta">
+        <p class="entrar">Entrar</p>
+        <p class="cadastrar">Cadastrar</p>
+        
+        
+        </header> 
+        <nav>
+        <div class="container">
+        <!--NAV-->
+        
+        <a href="\Tela-Inicial\index.html" class="subir">Home</a>
+        <a href="\Cafeteria Sobre Nos\Cafeteria Sobre Nos\index.html" class="subir">Sobre nós</a>
+        <a href="\Cafeteria Cardápio\index.html" class="subir">Cardápio</a>
+        <a href="\Loja\index.html" class="subir">Loja</a>
+        <a href="\Cafeteria Reservas\Cafeteria Reservas\index.html" class="subir">Reservas</a>
+        <a href="\Contribuição\contribuicao.html" class="subir">Contribuição</a>
+        <!--/NAV-->
+            </div>   
+           </nav>
+            <!--/responsive-nav-->
+            </div>
+               <!--/container-->
+               </nav>
+               <!--/NAVIGATION-->
+               <!--BREADCRUMB-->
+        
+
+    <!-- Body -->
+    <img src="imagens/titulo.PNG" alt="" class="titulo" id="subir">
+    <div class="btn-container">
+        <button class="bt1" onclick="scrollToSection('secao1')">Salgados</button>
+        <button class="bt2" onclick="scrollToSection('secao2')">Sobremesas</button>
+        <button class="bt3" onclick="scrollToSection('secao3')">Especiarias da casa</button>
+        <button class="bt4" onclick="scrollToSection('secao4')">Bebidas</button>
+    </div>
+    <img src="imagens/salgados.PNG" alt="" class="subtitulo" id="secao1">
+    <div class="Comidas">
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/pullum.png" alt="Pullum">
+                <button class="coracoes"  onclick="troca1()" type="submit"><img id="coracao1" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="Nome">Pullum</p>
+            <p class="tx">R$ 39,00</p>
+            <p class="descricao">Para aqueles que preferem outro tipo de carne, temos o Pullum! Suculenta sobrecoxa de frango...</p>
+            <button class="add"><a href="indexProduto.html"><p>Adicionar no carrinho</p></a></button>
+        </div>
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/pizzasAlquimicas.png" alt="Pizzas Alquímicas">
+                <button class="coracoes"  onclick="troca2()" type="submit"><img id="coracao2" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="nome">Pizzas Alquímicas</p>
+            <p class="tx1">R$35,90</p>
+            <p class="tx">R$30,40 <span>5% OFF</span></p>
+            <p class="descricao">Pizzas alquímicas misturam elementos secretos, criando fusões surpreendentes que...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+        
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/herbas.png" alt="Herbas">
+                <button class="coracoes"  onclick="troca3()" type="submit"><img id="coracao3" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="Nome">Herbas</p>
+            <p class="tx">R$ 44,00</p>
+            <p class="descricao">Preparado pelos mais experientes Encatandores. Hambúrguer de carne de 160g...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+    </div>
+    <img src="imagens/separação.PNG" alt="" class="divisao">
+    <img src="imagens/sobremesas.PNG" alt="" class="subtitulo" id="secao2">
+    <div class="Comidas">
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/Extrato.png" alt="Extrato de Mandrágora">
+                <button class="coracoes"  onclick="troca4()" type="submit"><img id="coracao4" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="Nome1">Extrato de Mandrágora</p>
+            <p class="tx">R$XX.XX</p>
+            <p class="descricao">A junção da doçura e poder em afastar olho gordo! Um incrível mousse de...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/BolinhoDosBruxos.png" alt="bolinho">
+                <button class="coracoes"  onclick="troca5()" type="submit">
+                    <img id="coracao5" src="imagens/coracao.png">
+                </button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="nome1">Bolinho Harry Potter</p>
+            <p class="tx1">R$15,00</p>
+            <p class="tx">R$14,25 <span>5% OFF</span></p>
+            <p class="descricao">Bolo de Chocolate com recheio de chocolate, ninho ou morango, coberto com uma ganache de...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/cartaDeApresentacao.png" alt="Carta de Aceitação">
+                <button class="coracoes"  onclick="troca6()" type="submit"><img id="coracao6" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="Nome">Carta de Aceitação</p>
+            <p class="tx">R$ 24,00</p>
+            <p class="descricao">A forma mais saborosa de receber sua carta d'A Cidadela! O Instituto de Magia do Brasil...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+    </div>
+    <img src="imagens/separação.PNG" alt="" class="divisao">
+    <img src="imagens/casa.PNG" alt="" class="subtitulo" id="secao3">
+    <div class="Comidas">
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/Cerveja.png" alt="Cerveja Espumosa ">
+                <button class="coracoes"  onclick="troca7()" type="submit"><img id="coracao7" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="Nome">Cerveja Espumosa </p>
+            <p class="tx">R$ 30,00 </p>
+            <p class="descricao">A bebida mais famosa do mundo mágico!Milkshake a base de creme...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/cupcake.png" alt="Cupcake Seletor">
+                <button class="coracoes" onclick="troca8()" type="submit"><img id="coracao8" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="Nome">Cupcake Seletor</p>
+            <p class="tx">R$12,00</p>
+            <p class="descricao">Descubra a sua casa com o nosso cupcake seletor! Feito de massa de chocolate...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/combo.png" alt="Combo das Trevas">
+                <button class="coracoes"  onclick="troca9()" type="submit"><img id="coracao9" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="nome">Combo das Trevas</p>
+            <p class="tx1">R$49,90</p>
+            <p class="tx">R$47,41 <span>5% OFF</span></p>
+            <p class="descricao">O nosso famoso combo das trevas vem com pão de abóbora, Hambúrguer 160g, queijo...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+    </div>
+    <img src="imagens/separação.PNG" alt="" class="divisao">
+    <img src="imagens/bebidas.PNG" alt="" class="subtitulo" id="secao4">
+    <div class="Comidas">
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/arcanus.png" alt="Arcanum Cromatis">
+                <button class="coracoes"  onclick="troca10()" type="submit"><img id="coracao10" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="Nome">Arcanum Cromatis</p>
+            <p class="tx">R$ 32,00</p>
+            <p class="descricao">Infundido com segredos ancestrais e um toque de magia antiga, o Arcanum Cromatis é...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/elixires.png " alt="Elixires das Casas">
+                <button class="coracoes"  onclick="troca11()" type="submit"><img id="coracao11" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="Nome">Elixires das Casas</p>
+            <p class="tx">R$ 15,00</p>
+            <p class="descricao">Descubra o sabor mágico do Elixir de sua casa!  Poções deliciosas que encantam e...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+        <div class="comida">
+            <div class="imagem">
+                <img class="com" src="imagens/soroRubro.png" alt="Soro Rubro">
+                <button class="coracoes"  onclick="troca12()" type="submit"><img id="coracao12" src="imagens/coracao.png"></button>
+                <!-- Fazer um botão de coração -->
+            </div>
+            <p class="Nome">Soro Rubro</p>
+            <p class="tx">R$ 36,00</p>
+            <p class="descricao">A bebida sazonal de halloween da Cafeteria Leviosa! Feita especialmente para afastar os ...</p>
+            <button class="add">Adicionar no carrinho</button>
+        </div>
+    </div>
+    <div class="final"> final</div>
+    <div class="subiu">
+        <img class="seta" src="imagens/setaParaSubir.png" alt="" onclick="scrollToSection('subir')">
+    </div>
+</div>
+    <footer>
+        
+        <img src="imagens/Logo.png" alt="Logo Cafeteria Leviosa" class="logo">
+
+            <div class="informacoesFooter">
+                <div class="nossasRedes">
+                    <div class="Imagem"><img src="imagens/NossasRedes.png" alt="" class="imgNossasRedes"></div>
+                    <div class="tiktok"><img src="imagens/IconTiktokFooter.png" alt="Ícone do TikTok" class="imgFooter"> <p class="info">TikTok</p></div>
+                    <div class="instagram"><img src="imagens/IconInstagramFooter.png" alt="Ícone do Instagram" class="imgFooter"> <p class="info">Instagram</p></div>
+                    <div class="facebook"><img src="imagens/IconFacebookFooter.png" alt="Ícone do Facebook" class="imgFooter"> <p class="info">Facebook</p></div>
+                    <div class="x"><img src="imagens/IconXFooter.png" alt="Ícone do X" class="imgFooter1"> <p class="info">X</p></div>
+                    <div class="linkedin"><img src="imagens/IconLinkedinFooter.png" alt="Ícone do Linkedin" class="imgFooter1"> <p class="info">Linkedin</p></div>
+                    <div class="ifood"><img src="imagens/IconIfoodFooter.png" alt="Ícone do iFood" class="imgFooter1"> <p class="info">iFood</p></div>
+                </div> <div class="linha-vertical"></div>
+        
+                <div class="contatos">
+                    <div class="Imagem"><img src="imagens/EntreEmContato.png" alt="" class="imgContatos"></div>
+                    <div class="whatsapp"><img src="imagens/IconWhatsappFooter.png" alt="Ícone WhatsApp" class="imgFooter3"> <p class="info">(11) 99648-7122</p></div>
+                    <div class="telefoneFooter"><img src="imagens/IconTelefoneFooter.png" alt="Ícone Telefone" class="imgFooter2"> <p class="info">4002-8922</p></div>
+                    <div class="emailFooter"><img src="imagens/IconEmailFooter.png" alt="Ícone E-mail" class="imgFooter2"> <p class="info">cafeterialeviosa@gmail.com</p></div>
+                </div> <div class="linha-vertical"></div>
+        
+                <div class="nossaLocalizacao">
+                    <div class="Imagem"><img src="imagens/OndeEstamos.png" alt="" class="imgLocalizacao"></div>
+                    <div class="localizacao"><img src="imagens/IconLocalizacaoFooter.png" alt="Ícone de Localização" class="imgFooter2"> <p class="info">Rua dos Bobos, nº 0, São Paulo - São Paulo</p>
+                    </div></div>
+            </div>
+           
+       
+        <div class="outrasInformacoes">
+            <a href="\Trabalhe Conosco\trabalheConosco.html"><h5>Trabalhe Conosco</h5></a>
+            <h5>Perguntas Frequentes</h5>
+            <h5>Transparência</h5>
+        </div>
+        
+        <div class="linha-horizontal"></div>
+
+        <div class="informacao"><h5 class="copyrightEscrita">Copyright</h5> <img src="imagens/IconCopyrightFooter.png" alt="" class="copyright"> <h5>Todos os Direitos reservados</h5></div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

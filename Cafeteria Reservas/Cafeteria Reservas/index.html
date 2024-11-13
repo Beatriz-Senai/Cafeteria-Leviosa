@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function mostrarAlerta() {
+            alert('A sua reserva já foi enviada!');
+        }
+    </script>
+</head>
+<body>
+
+    <div class="resto">
+<!-- Menu -->
+<div class="teste">
+    <header class="Menu">
+    <div class="itens">
+    <img src="imagens/moedinha.png" alt="itens" class="itens">
+    <span class="m">0</span>
+    <img src="imagens/carrinho.png" alt="itens" class="itens">
+    <span class="m">0</span>
+    <img src="imagens/coracao.png" alt="itens" class="itens">
+    <span class="m">0</span>
+    </div>
+    
+    <a href="\Tela-Inicial\index.html"><img src="imagens/Logo.png" alt="logo" class="logo"></a>
+    <img src="imagens/porta.png" alt="porta" class="porta">
+    <p class="entrar">Entrar</p>
+    <p class="cadastrar">Cadastrar</p>
+    
+    
+    </header> 
+    <nav>
+    <div class="container">
+    <!--NAV-->
+    
+    <a href="\Tela-Inicial\index.html" class="subir">Home</a>
+    <a href="\Cafeteria Sobre Nos\Cafeteria Sobre Nos\index.html" class="subir">Sobre nós</a>
+    <a href="\Cafeteria Cardápio\index.html" class="subir">Cardápio</a>
+    <a href="\Loja\index.html" class="subir">Loja</a>
+    <a href="\Cafeteria Reservas\Cafeteria Reservas\index.html" class="subir">Reservas</a>
+    <a href="\Contribuição\contribuicao.html" class="subir">Contribuição</a>
+    <!--/NAV-->
+        </div>   
+       </nav>
+        <!--/responsive-nav-->
+        </div>
+           <!--/container-->
+           </nav>
+           <!--/NAVIGATION-->
+           <!--BREADCRUMB-->
+           
+<!-- Body -->
+    <img src="imagens/reservas.PNG" alt="" class="titulo">
+    <h2>A Cafeteria Leviosa é um ambiente acolhedor onde você pode fazer reservas para garantir um espaço especial e, ainda, celebrar aniversários com uma experiência personalizada. Com um cardápio diversificado e um clima mágico, proporcionamos momentos inesquecíveis em cada visita.</h2>
+    <div class="enviar">
+        <div class="reser">
+            <form>
+                <div class="qts">
+                <div class="questoes">
+                <div class="nome">
+                    <label>Nome:</label>
+                    <input type="text" required>
+                </div>
+                <div class="unidade">
+                 <label>Unidade:</label>
+                    <select>
+                        <option value="Nada"></option>
+                        <option value="São paulo">São Paulo</option>
+                        <option value="Rio de Janeiro">Cabo Frio</option>
+                        <option value="Santos">Santos</option>
+                        <option value="Mogi">Mogi Das Cruzes</option>
+                    </select>
+                </div>
+                 <!-- Cria uma lista de seleções -->
+                  <div class="Qtd">
+                    <label>Quantidade de Pessoas:</label>
+                    <input type="number" min="1" max="50" required>
+                    <!-- Esse input só aceita números e você pode determinar um limite -->
+                </div>
+                </div>
+                <div class="questoes">
+                <div class="email">
+                    <label>Email:</label>
+                    <input type="email" required>
+                </div>
+                <div class="horario">
+                    <label>Horário:</label>
+                    <input type="time" required> <!-- Escolher horário -->
+                </div>
+                <div class="data">
+                    <label>Data do Evento:</label>
+                    <input type="date" required>
+                </div>
+                </div>
+                </div>
+                 <input class="Reservar" type="submit" onclick="mostrarAlerta()"> <!-- Envia os dados -->
+            </form>
+        </div>
+    </div>
+    <img src="imagens/festa.PNG" alt="" class="titulo2">
+    <h2>Transforme os aniversários dos seus pequenos em verdadeiros encantamentos de felicidade!</h2>
+    <div class="enviar">
+        <div class="reser">
+            <form>
+                <div class="qts">
+                <div class="questoes">
+                <div class="nome">
+                    <label>Nome:</label>
+                    <input type="text" required>
+                </div>
+                <div class="unidade">
+                 <label>Unidade:</label>
+                    <select>
+                        <option value="Nada"></option>
+                        <option value="São paulo">São Paulo</option>
+                        <option value="Rio de Janeiro">Cabo Frio</option>
+                        <option value="Santos">Santos</option>
+                        <option value="Mogi">Mogi Das Cruzes</option>
+                    </select>
+                </div>
+                 <!-- Cria uma lista de seleções -->
+                  <div class="Qtd">
+                    <label>Quantidade de Pessoas:</label>
+                    <input type="number" min="1" max="50" required>
+                    <!-- Esse input só aceita números e você pode determinar um limite -->
+                </div>
+                </div>
+                <div class="questoes">
+                <div class="email">
+                    <label>Email:</label>
+                    <input type="email" required>
+                </div>
+                <div class="horario">
+                    <label>Horário:</label>
+                    <input type="time" required> <!-- Escolher horário -->
+                </div>
+                <div class="data">
+                    <label>Data do Evento:</label>
+                    <input type="date" required>
+                </div>
+                </div>
+                </div>
+                 <input class="Reservar" type="submit" onclick="mostrarAlerta()"> <!-- Envia os dados -->
+            </form>
+        </div>
+    </div>
+    <h2 class="textoFinal">Na Cafeteria Leviosa, cada momento se torna uma memória eterna, onde a diversão e a qualidade dos alimentos são os ingredientes principais. Deixe-nos fazer a magia acontecer enquanto vocês celebram juntos!</h2>
+    </div>
+
+
+    <footer>
+        <img src="imagens/Logo.png" alt="Logo Cafeteria Leviosa" class="logo">
+
+            <div class="informacoesFooter">
+                <div class="nossasRedes">
+                    <div class="imagem"><img src="imagens/NossasRedes.png" alt="" class="imgNossasRedes"></div>
+                    <div class="tiktok"><img src="imagens/IconTiktokFooter.png" alt="Ícone do TikTok" class="imgFooter"> <p class="info">TikTok</p></div>
+                    <div class="instagram"><img src="imagens/IconInstagramFooter.png" alt="Ícone do Instagram" class="imgFooter"> <p class="info">Instagram</p></div>
+                    <div class="facebook"><img src="imagens/IconFacebookFooter.png" alt="Ícone do Facebook" class="imgFooter"> <p class="info">Facebook</p></div>
+                    <div class="x"><img src="imagens/IconXFooter.png" alt="Ícone do X" class="imgFooter1"> <p class="info">X</p></div>
+                    <div class="linkedin"><img src="imagens/IconLinkedinFooter.png" alt="Ícone do Linkedin" class="imgFooter1"> <p class="info">Linkedin</p></div>
+                    <div class="ifood"><img src="imagens/IconIfoodFooter.png" alt="Ícone do iFood" class="imgFooter1"> <p class="info">iFood</p></div>
+                </div> <div class="linha-vertical"></div>
+        
+                <div class="contatos">
+                    <div class="imagem"><img src="imagens/EntreEmContato.png" alt="" class="imgContatos"></div>
+                    <div class="whatsapp"><img src="imagens/IconWhatsappFooter.png" alt="Ícone WhatsApp" class="imgFooter3"> <p class="info">(11) 99648-7122</p></div>
+                    <div class="telefoneFooter"><img src="imagens/IconTelefoneFooter.png" alt="Ícone Telefone" class="imgFooter2"> <p class="info">4002-8922</p></div>
+                    <div class="emailFooter"><img src="imagens/IconEmailFooter.png" alt="Ícone E-mail" class="imgFooter2"> <p class="info">cafeterialeviosa@gmail.com</p></div>
+                </div> <div class="linha-vertical"></div>
+        
+                <div class="nossaLocalizacao">
+                    <div class="imagem"><img src="imagens/OndeEstamos.png" alt="" class="imgLocalizacao"></div>
+                    <div class="localizacao"><img src="imagens/IconLocalizacaoFooter.png" alt="Ícone de Localização" class="imgFooter2"> <p class="info">Rua dos Bobos, nº 0, São Paulo - São Paulo</p>
+                    </div></div>
+            </div>
+           
+       
+        <div class="outrasInformacoes">
+            <a href="\Trabalhe Conosco\trabalheConosco.html"><h5>Trabalhe Conosco</h5></a>
+            <h5>Perguntas Frequentes</h5>
+            <h5>Transparência</h5>
+        </div>
+        
+        <div class="linha-horizontal"></div>
+
+        <div class="informacao"><h5 class="copyrightEscrita">Copyright</h5> <img src="imagens/IconCopyrightFooter.png" alt="" class="copyright"> <h5>Todos os Direitos reservados</h5></div>
+        
+    </footer>
+</body>
+</html>

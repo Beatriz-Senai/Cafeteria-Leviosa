@@ -1,0 +1,653 @@
+@font-face {
+    font-family: 'medium';
+    src: url(font/static/AfacadFlux-Medium.ttf);
+}
+@font-face {
+    font-family: 'regular';
+    src: url(font/static/AfacadFlux-Regular.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(font/static/AfacadFlux-Bold.ttf);
+}
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Menu {
+    background-color: #482304; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 250px;
+    }
+    .teste{
+        position: fixed;
+     z-index: 1000; /* Para garantir que a imagem fique sobre outros elementos */
+     width: 100%;
+     bottom: 500px;
+    }
+    .logo {
+    align-items:center;
+    justify-content: center;
+    margin-top: 65px;
+    }
+    .itens {
+    display: flex;
+    margin-right: 90px;
+    margin-top: 40px;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    }
+    .porta {
+    display:flex;
+    margin-left: 90px; 
+    margin-top: 40px;
+    }
+    .entrar {
+    display: flex;
+    margin-right: 70px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: 'regular';/* Mudar o nome da fonte para como vc escreveu*/
+    cursor: pointer;
+    }
+    .cadastrar {
+        display: flex;
+        margin-right: 70px;
+        margin-top: 40px;
+        border: 1px solid #ffc704;
+        background-color: #ffc704;
+        border-radius: 20px;
+        padding: 9px;
+        width: 165px;
+        display: inline-block;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'regular';/* Mudar o nome da fonte para como vc escreveu*/
+        }
+    .bt{
+        font-family: 'bold';/* Mudar o nome da fonte para como vc escreveu*/
+        color: #482304;
+        background-color: #FFC704;
+        width: 186px;
+        height: 38.4px;
+        border-radius: 40px;
+        font-size: 20.6px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -19px;
+    }
+    nav a {
+    margin: 0 30px;
+    background-color: #482304;
+    color: #FFC704;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 140px;
+    font-family: 'regular';/* Mudar o nome da fonte para como vc escreveu*/
+    font-size: 23px;
+    }
+    .cadastrar:hover {
+        color: white;
+        box-shadow: inset 0 4px 15px -5px rgba(0, 0, 0, 0.7); /* 
+        inset: faz a sombra parecer interna
+        0: deslocamento horizontal (sem deslocamento)
+        4px: deslocamento da sombra para baixo
+        15px: raio de desfoque da sombra (aumentado para suavizar)
+        -5px: valor negativo para contrair a sombra para dentro
+        rgba(0, 0, 0, 0.7): cor da sombra (preto com 70% de opacidade)
+    */
+    }
+    
+    .promo1 {
+        font-family:'regular';/* Mudar o nome da fonte para como vc escreveu*/
+        font-weight: 600;
+            color: #ffc704;
+            }
+    
+    .tx{
+        display: flex;
+        height: 10px;
+        color: white;
+        font-family: 'regular';/* Mudar o nome da fonte para como vc escreveu*/
+    }
+    .taxado {
+        color: white;
+        margin-top: 15px;
+    }
+    
+    .novo {
+        color: white;
+        margin-top: 5px;
+    }
+    
+    span {
+        color:#19CF15;
+        }
+    
+    
+        .ho {
+            font-size: 40px;
+            margin-left: 22px;
+            color: #FFC704;
+        }
+    
+        .icon {
+            font-size: 25px; 
+            font-weight: bold;
+    
+        }
+        .subir:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .m {
+        color: #FFC704;
+        position: relative;
+        right: 75px;
+        margin-top: 40px;
+        font-family: "afacad";
+        }
+    
+        .loc:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .loca:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .it:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .caf:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        
+        .seg:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .botao-com-icone:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    .container { 
+        margin: 0; /* Remove a margem entre os botões */
+        text-align: center;
+        margin-top: -5px;
+        height: 65px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        display: flex;
+    }
+
+    ul {
+        list-style-type: none; /* Remove as bolinhas */
+        padding: 0; /* Remove o preenchimento padrão */
+        margin: 0; /* Remove a margem padrão */
+    }
+    li {
+        display: inline;
+      }
+.resto{
+    background-color: #E8DED4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth; /* Adiciona a transição suave */
+}
+a{
+    text-decoration: none;
+    color: #482304;
+}
+a{
+    transition:ease-in-out 0.3s
+}
+.titulo{
+    padding: 50px 650px;
+    height: 250px;
+    margin-top: 250px;
+}
+.subtitulo{
+    height: 100px;
+    width: 400px;
+    margin: 0 0 60px 0;
+}
+#lembranca{
+    height: 100px;
+    width: 700px;
+    margin: 0 0 60px 0;
+}
+#camisas{
+    height: 100px;
+    width: 500px;
+    margin: 0 0 60px 0;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 100px;
+}
+.bt1{
+    font-family: 'medium';
+    color: #482304;
+    background-color: #FFC704;
+    width: 170px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 30px 50px 0 0;
+    font-weight: 100;
+}
+.bt2{
+    font-family: 'medium';
+    color: #482304;
+    background-color: #FFC704;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 30px 50px 0 0;
+    font-weight: 100;
+}
+.bt3{
+    font-family: 'medium';
+    color: #482304;
+    background-color: #FFC704;
+    width: 270px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 30px 50px 0 0;
+    font-weight: 300;
+}
+.bt4{
+    font-family: 'medium';
+    color: #482304;
+    background-color: #FFC704;
+    width: 170px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 30px 50px 0 0;
+}
+img#secao3.subtitulo{
+    width: 600px;
+}
+.Comidas, .camisas, .lembranca, .canecas{
+    display: flex;
+    flex-direction: row;
+}
+.produto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    Width: 280px; 
+    Height: 525px;
+    background-color: #482304;
+    padding: 25px 25px 27px;
+    margin: 0px 100px;
+    cursor: pointer;
+}
+.coracoes{
+    background-color: transparent;
+    position: relative;
+    bottom: 235px;
+    left: 100px;
+    font-family: 'bold';
+    color: #482304;
+    width: 186px;
+    height: 38.4px;
+    margin-top: 10px;
+}
+.nome{
+    display: flex;
+    font-family: 'regular';
+    font-size: 26px;
+    color: #ffc704;
+    margin-bottom: 17px;
+    font-weight: 100;
+    width: 232px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.nome5, .nome6{
+    margin: 50px 0 50px 0;
+    display: flex;
+    font-family: 'regular';
+    font-size: 26px;
+    color: #ffc704;
+    font-weight: 100;
+    width: 232px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.nome4{
+    display: flex;
+    font-family: 'regular';
+    font-size: 26px;
+    color: #ffc704;
+    margin-bottom: 30px;
+    font-weight: 100;
+    width: 232px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+#blusa1 {
+    background-color: #f6efed;
+}
+#blusa2{
+background-color: #dbcab7;
+}
+#blusa3{
+    background-color: #ececec;
+}
+#brow{
+    width: 235px;
+}
+#lemb1{
+width: 222px;
+align-self: center;
+height: 225px;
+border-radius: 6px;
+}
+#cor8, #cor7, #cor9{
+    margin-top: 12px;
+    margin-right: 18px;
+}
+#lemb2{
+    width: 222px;
+    align-self: center;
+    height: 225px;
+    border-radius: 6px;
+}
+#lemb3{
+    width: 222px;
+    align-self: center;
+    height: 225px;
+    border-radius: 6px;
+}
+#can1{
+    width: 222px;
+    align-self: center;
+    height: 225px;
+    border-radius: 6px; 
+}
+#can3{
+    width: 222px;
+    align-self: center;
+    height: 225px;
+    border-radius: 6px; 
+}
+/* #cor1{
+    position: relative;
+    bottom: 235px;
+    left: 100px;
+} */
+.tx{
+    display: flex;
+    align-items: baseline;
+    font-family: 'medium';
+    height: 35px;
+    color: #FFFFFF;
+    font-size: 30px;
+    justify-content: center;
+}
+.descricao{
+    display: flex;
+    font-family: 'regular';
+    font-size: 17px;
+    color: #FFFFFF;
+    width: 227px;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.addCar{
+    font-family: 'bold';
+    color: #482304;
+    background-color: #FFC704;
+    border-radius: 40px;
+    font-size: 20.6px;
+    margin-top: 10px;
+    padding: 7px 7px;
+}
+.imagem{
+    border-radius: 6px;
+    border: 2px solid #FFC704;
+    Height: 229.64px;
+    Width: 240px; 
+    background-color: white;
+    margin-bottom: 30px;
+
+    justify-content: center;
+}
+.com{
+    Height: 225px;
+    position: relative;
+    /* border: solid 3px purple;  */
+}
+.com .lembranca{
+    Width: 220px; 
+}
+.lembranca .imagem{
+    width: 225px;
+    height: 229px;
+}
+.subiu{
+    position: fixed;
+    bottom: 30px; /* Distância do topo */
+    left: 1400px; /* Distância da direita */
+    width: 150px; /* Largura da imagem */
+    z-index: 1000; /* Para garantir que a imagem fique sobre outros elementos */
+    position: fixed;
+    z-index: 1000; /* Para garantir que a imagem fique sobre outros elementos */
+
+}
+.seta{
+    height: 40px;
+}
+.divisao{
+    margin: 170px 0 50px 0 ;
+}
+
+.final{
+    color: transparent;
+    margin-bottom: 200px;
+}
+/* Footer */
+footer{
+    background-color: #482304;
+    color: #ffc704;
+    display: flex;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: regular;
+}
+
+.logo{
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+
+.nossasRedes, .contatos, .nossaLocalizacao{
+    display: flex;
+    height: 450px;
+    width: 320px;
+    flex-direction: column;
+}
+
+.imgFooter{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+.localizacao, .tiktok, .instagram, .facebook, .x, .linkedin, .ifood, .whatsapp, .telefoneFooter, .emailFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tiktok{
+    width: 100px;
+    margin-top: 15px;
+}
+.instagram{
+    width: 100px;
+}
+.facebook{
+    width: 100px;
+}
+.x{
+    width: 70px;
+}
+.linkedin{
+    width: 120px;
+}
+.ifood{
+    width: 100px;
+}
+.informacoesFooter{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+p{
+    font-size: 20px;
+}
+.imgNossasRedes{
+    height: 35px;
+    width: 250px;
+}
+.imgContatos{
+    height: 40px;
+    width: 300px;
+}
+.imgLocalizacao{
+    height: 35px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.telefoneFooter{
+    width: 150px;
+}
+
+.whatsapp{
+    width: 200px;
+    margin-top: 15px;
+}
+.emailFooter{
+    width: 290px;
+}
+
+.linha-vertical{
+    border: 2px solid #ffc704;
+    height: 450px;
+}
+
+.outrasInformacoes{
+    display: flex;
+    width: 700px;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.informacao{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 410px;
+}
+.linha-horizontal{
+    border: 2px solid #ffc704;
+    width: 1300px;
+}
+
+.info{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.imgFooter1{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter2{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter3{
+    height: 45px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+h5{
+    color: #FFC704;
+}
+
+.bt1, .bt2, .bt3, .bt4{
+    cursor: pointer;
+}
+
+.bt1:hover{
+    transform: scale(1.1);
+}
+
+.bt2:hover{
+    transform: scale(1.1);
+}
+
+.bt3:hover{
+    transform: scale(1.1);
+}
+
+.bt4:hover{
+    transform: scale(1.1);
+}
+
+.addCar{
+    cursor: pointer;
+}
+
+.addCar:hover{
+    transform: scale(1.1);
+}

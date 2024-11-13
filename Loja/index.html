@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resto">
+            <!-- Menu -->
+
+    <div class="teste">
+        <header class="Menu">
+        <div class="itens">
+        <img src="img2/moedinha.png" alt="itens" class="itens">
+        <span class="m">0</span>
+        <img src="img2/carrinho.png" alt="itens" class="itens">
+        <span class="m">0</span>
+        <img src="img2/coracao.png" alt="itens" class="itens">
+        <span class="m">0</span>
+        </div>
+        
+        <a href="\Tela-Inicial\index.html"><img src="img2/Logo.png" alt="logo" class="logo"></a>
+        <img src="img2/porta.png" alt="porta" class="porta">
+        <p class="entrar">Entrar</p>
+        <p class="cadastrar">Cadastrar</p>
+        
+        
+        </header> 
+        <nav>
+        <div class="container">
+        <!--NAV-->
+        
+        <a href="\Tela-Inicial\index.html" class="subir">Home</a>
+        <a href="\Cafeteria Sobre Nos\Cafeteria Sobre Nos\index.html" class="subir">Sobre nós</a>
+        <a href="\Cafeteria Cardápio\index.html" class="subir">Cardápio</a>
+        <a href="\Loja\index.html" class="subir">Loja</a>
+        <a href="\Cafeteria Reservas\Cafeteria Reservas\index.html" class="subir">Reservas</a>
+        <a href="\Contribuição\contribuicao.html" class="subir">Contribuição</a>
+        <!--/NAV-->
+            </div>   
+           </nav>
+            <!--/responsive-nav-->
+            </div>
+               <!--/container-->
+               </nav>
+               <!--/NAVIGATION-->
+               <!--BREADCRUMB-->
+
+        <img src="img/logoLoja.png" alt="" class="titulo" id="subir">
+        <div class="btn-container">
+            <button class="bt1" onclick="scrollToSection('secao1')">Comidas</button>
+            <button class="bt2" onclick="scrollToSection('secao2')">Camisetas</button>
+            <button class="bt3" onclick="scrollToSection('secao3')">Lembrancinhas</button>
+            <button class="bt4" onclick="scrollToSection('secao4')">Canecas</button>
+        </div>
+        <img src="img/tituloComidas.png" alt="" class="subtitulo" id="secao1">
+        <div class="Comidas">
+            <div class="produto">
+                <div class="imagem">
+                    <img class="com" id="biscoito" src="img/comida1.1.png" alt="Biscoito amanteigado">
+                    <button class="coracoes" id="cor1" onclick="troca1()" type="submit"><img id="coracao1" src="img/coracao.png"></button>
+                </div>
+                <p class="nome">Biscoito amanteigado Danish Delights</p>
+                <p class="tx">R$39.90</p>
+                <p class="descricao">Farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal,...</p>
+                <button class="addCar"> <a href="index2.html">Adicionar no carrinho</a></button>
+            </div>
+
+            <div class="produto">
+                <div class="imagem">
+                    <img class="com" id="cafe" src="img/comida2.1.png" alt="Baggio Café Torrado e Moído de chocolate">
+                    <button class="coracoes" id="cor2" onclick="troca2()" type="submit"><img id="coracao2" src="img/coracao.png"></button>
+                </div>
+                <p class="nome">Baggio café torrado e moído - Chocolate</p>
+                <p class="tx">R$24.90</p>
+                <p class="descricao">Baggio Aromas Chocolate Trufado é um café moído de 250 gramas com aroma de trufas...</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+
+            <div class="produto">
+                <div class="imagem">
+                    <img class="com" id="brow" src="img/comida3.1.png" alt="Brownies gourmet caseiros">
+                    <button class="coracoes" id="cor3" onclick="troca3()" type="submit"><img id="coracao3" src="img/coracao.png"></button>
+                </div>
+                <p class="nome">Brownie gourmet</p>
+                <p class="tx">R$12.90</p>
+                <p class="descricao">O brownie gourmet combina chocolate intenso e nozes crocantes, criando uma...</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+        </div>
+
+
+        <img src="img/quebraPena.png" alt="" class="divisao">
+        <img src="img/tituloCamisetas.png" alt="" class="subtitulo" id="secao2">
+        <div class="camisas">
+            <div class="produto">
+                <div class="imagem" id="blusa1">
+                    <img class="com" id="blusa1" src="img/blusa1.1.png" alt="camiseta de algodão infantil hogwarts harry potter bege">
+                    <button class="coracoes" id="cor4" onclick="troca4()" type="submit"><img id="coracao4" src="img/coracao.png"></button>
+                </div>
+                <div class="info">
+                <p class="nome4">Camiseta infantil Harry Potter bege</p>
+                <p class="descricao">Tipo: Camiseta, Idade: 4 a 12 anos, Manga: Manga curta, Cor: Bege, Marca...</p>
+                <p class="tx">R$34.90</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+            </div>
+            <div class="produto">
+                <div class="imagem" id="blusa2">
+                    <img class="com" src="img/blusa2.1.png" alt="Camiseta Alongada em Algodão com Estampa Pomo de Ouro Cinza Chumbo">
+                    <button class="coracoes" id="cor5" onclick="troca5()" type="submit"><img id="coracao5" src="img/coracao.png"></button>
+                </div>
+                <p class="nome5">Camiseta Alongada em Algodão com Estampa Pomo de Ouro Cinza Chumbo</p>
+                <p class="tx">R$45.90</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+            <div class="produto">
+                <div class="imagem"id="blusa3">
+                    <img class="com" src="img/blusa3.1.png" alt="Camisa regular de viscose Harry Potter branca">
+                    <button class="coracoes" id="cor6" onclick="troca6()" type="submit"><img id="coracao6" src="img/coracao.png"></button>
+                </div>
+                <p class="nome6">Camisa regular de viscose Harry Potter branca</p>
+                <p class="tx">R$95.90</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+        </div>
+        <img src="img/quebraPena.png" alt="" class="divisao">
+        <img src="img/tituloLembrancinhas.png" alt="" class="subtitulo" id="secao3">
+        <div class="lembranca">
+            <div class="produto">
+                <div class="imagem">
+                    <img class="com" id="lemb1" src="img/lemb1.1.png" alt="Feijõezinhos de todos os sabores">
+                    <button class="coracoes" id="cor7" onclick="troca7()" type="submit"><img id="coracao7" src="img/coracao.png"></button>
+                </div>
+                <p class="nome">Feijõezinhos de todos os sabores</p>
+                <p class="tx">R$25.90</p>
+                <p class="descricao">Os feijõezinhos de todos os sabores trazem surpresas deliciosas e estranhas...</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+            <div class="produto">
+                <div class="imagem">
+                    <img class="com" id="lemb2" src="img/lemb2.1.png" alt="Chaveiro do vira-tempo">
+                    <button class="coracoes" id="cor8" onclick="troca8()" type="submit"><img id="coracao8" src="img/coracao.png"></button>
+                </div>
+                <p class="nome">Chaveiro do vira-tempo</p>
+                <p class="tx">R$35.00</p>
+                <p class="descricao">Marca: Cafeteria Leviosa, Material: alumínio, Dimensões: 5x5...</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+            <div class="produto">
+                <div class="imagem">
+                    <img class="com" id="lemb3" src="img/lemb3.2.png" alt="Sapo de chocolate com figuras surpresas diversas">
+                    <button class="coracoes" id="cor9" onclick="troca9()" type="submit"><img id="coracao9" src="img/coracao.png"></button>
+                </div>
+                <p class="nome">Sapo de chocolate com figuras</p>
+                <p class="tx">R$44.90</p>
+                <p class="descricao">Sapo de chocolate com figuras surpresas diversas, uma iguaria mágica...</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+        </div>
+        <img src="img/quebraPena.png" alt="" class="divisao">
+        <img src="img/tituloCanecas.png" alt="" class="subtitulo" id="secao4">
+        <div class="canecas">
+            <div class="produto">
+                <div class="imagem">
+                    <img class="com" id="can1" src="img/caneca1.1.png" alt="Caneca com formato do chapéu seletor e com suas feições">
+                    <button class="coracoes" id="cor10" onclick="troca10()" type="submit"><img id="coracao10" src="img/coracao.png"></button>
+                </div>
+                <p class="nome">Caneca chapéu seletor</p>
+                <p class="tx">R$44.90</p>
+                <p class="descricao">Marca: Cafeteria Leviosa, Material: Porcelana, Capacidade: 350ml...</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+            <div class="produto">
+                <div class="imagem">
+                    <img class="com" id="can2" src="img/caneca2.1.png" alt="Caneca com patrono do Hary Potter">
+                    <button class="coracoes" id="cor11" onclick="troca11()" type="submit"><img id="coracao11" src="img/coracao.png"></button>
+                </div>
+                <p class="nome">Caneca com patrono do Harry Potter</p>
+                <p class="tx">R$54.90</p>
+                <p class="descricao">Caneca xícara vidro prime Harry Potter hogwarts casas 300ml, dimensões 9 x 9...</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+            <div class="produto">
+                <div class="imagem">
+                    <img class="com" id="can3" src="img/caneca3.1.png" alt="Caneca Expresso Patronum">
+                    <button class="coracoes" id="cor12" onclick="troca12()" type="submit"><img id="coracao12" src="img/coracao.png"></button>
+                </div>
+                <p class="nome">Caneca Expresso Patronum</p>
+                <p class="tx">R$45.90</p>
+                <p class="descricao">Marca: Cafeteria Leviosa, Material: Louça de barro, Capacidade: 320ml...</p>
+                <button class="addCar">Adicionar no carrinho</button>
+            </div>
+        </div>
+        <div class="final"> final</div>
+    </div>
+    <div class="subiu">
+        <img class="seta" src="img/seta.png" alt="" onclick="scrollToSection('subir')">
+    </div>
+        <footer>
+            <img src="footer/Imagens/Logo.png" alt="Logo Cafeteria Leviosa" class="logo">
+    
+                <div class="informacoesFooter">
+                    <div class="nossasRedes">
+                        <div class="Imagem"><img src="footer/Imagens/NossasRedes.png" alt="" class="imgNossasRedes"></div>
+                        <div class="tiktok"><img src="footer/Imagens/IconTiktokFooter.png" alt="Ícone do TikTok" class="imgFooter"> <p class="info">TikTok</p></div>
+                        <div class="instagram"><img src="footer/Imagens/IconInstagramFooter.png" alt="Ícone do Instagram" class="imgFooter"> <p class="info">Instagram</p></div>
+                        <div class="facebook"><img src="footer/Imagens/IconFacebookFooter.png" alt="Ícone do Facebook" class="imgFooter"> <p class="info">Facebook</p></div>
+                        <div class="x"><img src="footer/Imagens/IconXFooter.png" alt="Ícone do X" class="imgFooter1"> <p class="info">X</p></div>
+                        <div class="linkedin"><img src="footer/Imagens/IconLinkedinFooter.png" alt="Ícone do Linkedin" class="imgFooter1"> <p class="info">Linkedin</p></div>
+                        <div class="ifood"><img src="footer/Imagens/IconIfoodFooter.png" alt="Ícone do iFood" class="imgFooter1"> <p class="info">iFood</p></div>
+                    </div> <div class="linha-vertical"></div>
+            
+                    <div class="contatos">
+                        <div class="Imagem"><img src="footer/Imagens/EntreEmContato.png" alt="" class="imgContatos"></div>
+                        <div class="whatsapp"><img src="footer/Imagens/IconWhatsappFooter.png" alt="Ícone WhatsApp" class="imgFooter3"> <p class="info">(11) 99648-7122</p></div>
+                        <div class="telefoneFooter"><img src="footer/Imagens/IconTelefoneFooter.png" alt="Ícone Telefone" class="imgFooter2"> <p class="info">4002-8922</p></div>
+                        <div class="emailFooter"><img src="footer/Imagens/IconEmailFooter.png" alt="Ícone E-mail" class="imgFooter2"> <p class="info">cafeterialeviosa@gmail.com</p></div>
+                    </div> <div class="linha-vertical"></div>
+            
+                    <div class="nossaLocalizacao">
+                        <div class="Imagem"><img src="footer/Imagens/OndeEstamos.png" alt="" class="imgLocalizacao"></div>
+                        <div class="localizacao"><img src="footer/Imagens/IconLocalizacaoFooter.png" alt="Ícone de Localização" class="imgFooter2"> <p class="info">Rua dos Bobos, nº 0, São Paulo - São Paulo</p>
+                        </div></div>
+                </div>
+               
+           
+            <div class="outrasInformacoes">
+                <a href="\Trabalhe Conosco\trabalheConosco.html"><h5>Trabalhe Conosco</h5></a>
+                <h5>Perguntas Frequentes</h5>
+                <h5>Transparência</h5>
+            </div>
+            
+            <div class="linha-horizontal"></div>
+    
+            <div class="informacao"><h5 class="copyrightEscrita">Copyright</h5> <img src="footer/Imagens/IconCopyrightFooter.png" alt="" class="copyright"> <h5>Todos os Direitos reservados</h5></div>
+            
+        </footer>
+        <script src="javaScript.js"></script>
+</body>
+</html>

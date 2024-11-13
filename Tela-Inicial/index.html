@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="teste">
+<header class="Menu">
+<div class="itens">
+<img src="imagens/moedinha.png" alt="itens" class="itens">
+<span class="m">0</span>
+<img src="imagens/carrinho.png" alt="itens" class="itens">
+<span class="m">0</span>
+<img src="imagens/coracao.png" alt="itens" class="itens">
+<span class="m">0</span>
+</div>
+
+<a href="\Tela-Inicial\index.html"><img src="imagens/Logo.png" alt="logo" class="logo"></a>
+<img src="imagens/porta.png" alt="porta" class="porta">
+<button id="entrar">Entrar</button>
+<p class="cadastrar">Cadastrar</p>
+
+
+</header> 
+<nav>
+<div class="container">
+<!--NAV-->
+
+    <a href="\Tela-Inicial\index.html" class="subir">Home</a>
+    <a href="\Cafeteria Sobre Nos\Cafeteria Sobre Nos\index.html" class="subir">Sobre nós</a>
+    <a href="\Cafeteria Cardápio\index.html" class="subir">Cardápio</a>
+    <a href="\Loja\index.html" class="subir">Loja</a>
+    <a href="\Cafeteria Reservas\Cafeteria Reservas\index.html" class="subir">Reservas</a>
+    <a href="\Contribuição\contribuicao.html" class="subir">Contribuição</a>
+<!--/NAV-->
+    </div>   
+   </nav>
+    <!--/responsive-nav-->
+    </div>
+       <!--/container-->
+       </nav>
+       <!--/NAVIGATION-->
+       <!--BREADCRUMB-->
+
+       <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeBtn" class="close">&times;</span>
+    
+    <img src="cadastro1/img/BemVindo.png" alt="" class="inicio">
+    <h3>Para se manter conectado (a), faça o login</h3>
+
+    <div class="login">
+        <div class="user">
+            <img src="cadastro1/img/userIcon2.png" alt="">
+            <input type="email" placeholder="Digite seu email">
+        </div>
+
+        <div class="senha">
+            <img src="cadastro1/img/cadeadoIcon2.png" alt="">
+            <input type="password" placeholder="Digite sua senha">
+        </div>
+    </div>
+    <div class="wrap">
+    <p class="esqSenha">Esqueci minha senha</p>
+
+    <button class="entCad"><img src="cadastro1/img/ENTRAR.png" alt=""></button>
+    <img src="cadastro1/img/ouLinha.png" alt="">
+    <p class="redesEntre">Entre com</p>
+</div>
+    <div class="redes">
+        <img src="cadastro1/img/googleIcon.png" alt="" class="goog">
+        <img src="cadastro1/img/facebookIcon.png" alt="" class="face">
+        <img src="cadastro1/img/linkedinIcon.png" alt="" class="link">
+    </div>
+    <button id="criCont">Ainda não tem uma conta? Crie uma!</button>
+</div>
+</div>
+
+<!-- Criar conta -->
+<div id="modall" class="modal">
+    <div class="modal-content">
+        <span id="closeBtn2" class="close">&times;</span>
+
+<img src="cadastro1/img/BemVindo.png" alt="" class="inicio">
+    <h3>Veja a magia se tornando real</h3>
+
+    <div class="login">
+        <div class="user">
+            <img src="cadastro1/img/userIcon2.png" alt="">
+            <input type="email" placeholder="Digite seu email">
+        </div>
+
+        <div class="senha">
+            <img src="cadastro1/img/cadeadoIcon2.png" alt="">
+            <input type="password" placeholder="Crie uma senha">
+        </div>
+
+        <div class="nasc">
+            <img src="cadastro1/img/calendarioIcon2.png" alt="">
+            <input type="date" placeholder="Coloque sua data de nascimento">
+        </div>
+    </div>
+
+    <button class="continuar"><img src="cadastro1/img/CONTINUAR.png" alt=""></button>
+    <img src="cadastro1/img/ouLinha.png" alt="">
+    <p class="redesEntre">Entre com</p>
+    <div class="redes">
+        <img src="cadastro1/img/googleIcon.png" alt="" class="goog">
+        <img src="cadastro1/img/facebookIcon.png" alt="" class="face">
+        <img src="cadastro1/img/linkedinIcon.png" alt="" class="link">
+    </div>
+    <a href="" class="entraConta">Já tem uma conta? Entre!</a>
+    </div>
+</div>
+
+    <!-- Fim do criar conta -->
+
+       <div id="breadcrum" class="section">
+    </div>
+
+        <!-- Div principal do carrossel -->
+<div class="carrossel">
+    <div class="slides">
+       
+        <img src="imagens/Equipee (1).png" alt="Imagem 1" class="slide"  style="cursor: pointer;" onclick="irParaPagina()">
+        <img src="imagens/prom.png" alt="Imagem 2" class="slide">
+        <img src="imagens/niver.png" alt="Imagem 3" class="slide">
+        <img src="imagens/car.png" alt="Imagem 4" class="slide">
+    </div>
+
+    <!-- Botões para navegar entre as imagens -->
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+<!-- Adiciona o contêiner para os indicadores -->
+<div class="fundo">
+<img src="imagens/Cafeteria Leviosa, onde a magia se torna real.png" alt="" class="slogan">
+</div>
+
+<img src="imagens/ofertas.png" alt="Ofertas" class="ofertas">
+
+<div class="tudo">
+<div class="combo">
+    <div class="Trevas">
+        <img class="com" src="imagens/combo.png" alt="Combo das trevas">
+    </div>
+    <p class="promo1">COMBO DAS <br> TREVAS</p>
+    <p class="taxado"><s>R$49.90</s></p>
+    <p class="novo">R$47,41 <span>5% OFF</span></p>
+    <a href="\Cafeteria Cardápio\index.html"><button class="conf1">Conferir</button></a>
+ 
+</div>
+
+<div class="bolinho">
+    <div class="bruxos">
+        <img class="bolo" src="imagens/bolinho.png" alt="Bolinho dos Bruxos">
+    </div>
+    <p class="promo2">BOLINHO DOS<br> BRUXOS</p>
+    <p class="taxado"><s>R$15.00</s></p>
+    <p class="novo1">R$14,25 <span>5% OFF</span></p>
+    <a href="\Cafeteria Cardápio\index.html"><button class="conf1">Conferir</button></a>
+</div>
+
+
+<div class="pizzas">
+    <div class="alquimicas">
+        <img class="pi" src="imagens/pizzas.png" alt="PIZZAS
+        ALQUÍMICAS">
+    </div>
+    <p class="promo3">PIZZAS<br>ALQUÍMICAS</p>
+    <p class="taxado"><s>R$35.90</s></p>
+    <p class="novo2">R$30,40 <span>5% OFF</span></p>
+    <a href="\Cafeteria Cardápio\index.html"><button class="conf1">Conferir</button></a>
+</div>
+</div>
+
+<div class="marrom"></div>
+
+<img class="ven" src="imagens/vend.png" alt="">
+
+
+<div class="tudo1">
+
+<div class="pi1">
+    <div class="al1">
+        <img class="pi" src="imagens/beb.png" alt="PIZZAS
+        ALQUÍMICAS">
+    </div>
+    <p class="promo3">ARCANUM<br>CROMATIS</p>
+    <p class="des1">Infundido com segredos ancestrais e um toque de magia antiga, o Arcanum Cromatis é... 
+    </p>
+    <a href="\Cafeteria Cardápio\index.html"><button class="conf2">Conferir</button></a>
+</div>
+<div class="pi1">
+    <div class="al1">
+        <img class="pi" src="imagens/cup.png" alt="PIZZAS
+        ALQUÍMICAS">
+    </div>
+    <p class="promo3">CUPCAKE<br>SELETOR</p>
+    <p class="des1">Descubra a sua casa com o nosso cupcake seletor! Feito de massa de chocolate...</p>
+    <a href="\Cafeteria Cardápio\index.html"><button class="conf2">Conferir</button></a>
+</div>
+
+<div class="pi1">
+    <div class="al1">
+        <img class="pi" src="imagens/esp.png" alt="PIZZAS
+        ALQUÍMICAS">
+    </div>
+    <p class="promo3">CERVEJA<br>ESPUMOSA</p>
+    <p class="des2">Cerveja Espumosa, a bebida mais famosa do mundo mágico!Milkshake a base de creme...
+    </p>
+    <a href="\Cafeteria Cardápio\index.html"><button class="conf2">Conferir</button></a>
+</div>
+</div>
+<div class="marrom"></div>
+
+<img class="ven" src="imagens/fun.png" alt="">
+
+<div class="fun">
+<img class="caf" src="imagens/caf.png" alt="">
+
+<div class="loca">
+<img class="loc" src="imagens/loc.png" alt="Localização">
+<p class="lt">Clique no botão e veja a nossa <br> localização. Você não pode <br> perder a chance de nos visitar.</p>
+<a href="https://www.google.com/maps/dir//6000+Universal+Blvd,+Orlando,+FL+32819,+Estados+Unidos/@28.4795868,-81.5517761,24764m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x88e77edf1da499df:0x41bbbe287e6e8214!2m2!1d-81.4693747!2d28.4796116?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"><button class="conf3">Localização</button></a>
+
+</div>
+</div>
+
+<img class="linha" src="imagens/linha.png">
+
+
+<div class="horarios">
+
+<img class="seg" src="imagens/Group 69.png">
+<button class="botao-com-icone">
+    <span class="icon"><img src="imagens/relogio.png" alt=""></span> 
+    <span class="ho">6h às 22h</span>
+</button>
+</div>
+
+<div class="horarios1">
+<img class="seg" src="imagens/Group 36.png">
+<button class="botao-com-icone">
+    <span class="icon"><img src="imagens/relogio.png" alt=""></span> 
+    <span class="ho">6h às 23h</span>
+</button>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <img src="imagens/Logo.png" alt="Logo Cafeteria Leviosa" class="logo">
+
+        <div class="informacoesFooter">
+            <div class="nossasRedes">
+                <div class="imagem"><img src="imagens/NossasRedes.png" alt="" class="imgNossasRedes"></div>
+                <div class="tiktok"><img src="imagens/IconTiktokFooter.png" alt="Ícone do TikTok" class="imgFooter"> <p class="info">TikTok</p></div>
+                <div class="instagram"><img src="imagens/IconInstagramFooter.png" alt="Ícone do Instagram" class="imgFooter"> <p class="info">Instagram</p></div>
+                <div class="facebook"><img src="imagens/IconFacebookFooter.png" alt="Ícone do Facebook" class="imgFooter"> <p class="info">Facebook</p></div>
+                <div class="x"><img src="imagens/IconXFooter.png" alt="Ícone do X" class="imgFooter1"> <p class="info">X</p></div>
+                <div class="linkedin"><img src="imagens/IconLinkedinFooter.png" alt="Ícone do Linkedin" class="imgFooter1"> <p class="info">Linkedin</p></div>
+                <div class="ifood"><img src="imagens/IconIfoodFooter.png" alt="Ícone do iFood" class="imgFooter1"> <p class="info">iFood</p></div>
+            </div> <div class="linha-vertical"></div>
+    
+            <div class="contatos">
+                <div class="imagem"><img src="imagens/EntreEmContato.png" alt="" class="imgContatos"></div>
+                <div class="whatsapp"><img src="imagens/IconWhatsappFooter.png" alt="Ícone WhatsApp" class="imgFooter3"> <p class="info">(11) 99648-7122</p></div>
+                <div class="telefoneFooter"><img src="imagens/IconTelefoneFooter.png" alt="Ícone Telefone" class="imgFooter2"> <p class="info">4002-8922</p></div>
+                <div class="emailFooter"><img src="imagens/IconEmailFooter.png" alt="Ícone E-mail" class="imgFooter2"> <p class="info">cafeterialeviosa@gmail.com</p></div>
+            </div> <div class="linha-vertical"></div>
+    
+            <div class="nossaLocalizacao">
+                <div class="imagem"><img src="imagens/OndeEstamos.png" alt="" class="imgLocalizacao"></div>
+                <div class="localizacao"><img src="imagens/IconLocalizacaoFooter.png" alt="Ícone de Localização" class="imgFooter2"> <p class="info">Rua dos Bobos, nº 0, São Paulo - São Paulo</p>
+                </div></div>
+        </div>
+       
+   
+    <div class="outrasInformacoes">
+        <a href="\Trabalhe Conosco\trabalheConosco.html"><h5>Trabalhe Conosco</h5></a>
+        <h5>Perguntas Frequentes</h5>
+        <h5>Transparência</h5>
+    </div>
+    
+    <div class="linha-horizontal"></div>
+
+    <div class="informacao"><h5 class="copyrightEscrita">Copyright</h5> <img src="imagens/IconCopyrightFooter.png" alt="" class="copyright"> <h5>Todos os Direitos reservados</h5></div>
+    
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

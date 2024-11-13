@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'medium';
+    src: url(fontes/AfacadFlux-Medium.ttf);
+}
+@font-face {
+    font-family: 'regular';
+    src: url(fontes/AfacadFlux-Regular.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(fontes/AfacadFlux-Bold.ttf);
+}
+/* Menu */
+
+.Menu {
+    background-color: #482304; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 250px;
+    }
+    .teste{
+        position: fixed;
+     z-index: 1000; /* Para garantir que a imagem fique sobre outros elementos */
+     width: 100%;
+     bottom: 500px;
+    }
+    .logo {
+    align-items:center;
+    justify-content: center;
+    margin-top: 65px;
+    }
+    .itens {
+    display: flex;
+    margin-right: 90px;
+    margin-top: 40px;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    }
+    .porta {
+    display:flex;
+    margin-left: 90px; 
+    margin-top: 40px;
+    }
+    .entrar {
+    display: flex;
+    margin-right: 70px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: 'regular';
+    cursor: pointer;
+    }
+    .cadastrar {
+        display: flex;
+        margin-right: 70px;
+        margin-top: 40px;
+        border: 1px solid #ffc704;
+        background-color: #ffc704;
+        border-radius: 20px;
+        padding: 9px;
+        width: 165px;
+        display: inline-block;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'regular';
+        }
+    bt{
+        font-family: 'bold';
+        color: #482304;
+        background-color: #FFC704;
+        width: 186px;
+        height: 38.4px;
+        border-radius: 40px;
+        font-size: 20.6px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -19px;
+    }
+    nav a {
+    margin: 0 30px;
+    background-color: #482304;
+    color: #FFC704;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 140px;
+    font-family: 'regular';
+    font-size: 23px;
+    }
+    .cadastrar:hover {
+        color: white;
+        box-shadow: inset 0 4px 15px -5px rgba(0, 0, 0, 0.7); /* 
+        inset: faz a sombra parecer interna
+        0: deslocamento horizontal (sem deslocamento)
+        4px: deslocamento da sombra para baixo
+        15px: raio de desfoque da sombra (aumentado para suavizar)
+        -5px: valor negativo para contrair a sombra para dentro
+        rgba(0, 0, 0, 0.7): cor da sombra (preto com 70% de opacidade)
+    */
+    }
+    
+    .promo1 {
+        font-family:'regular';
+        font-weight: 600;
+            color: #ffc704;
+            }
+    
+    .tx{
+        display: flex;
+        height: 10px;
+        color: white;
+        font-family: 'regular';
+    }
+    .taxado {
+        color: white;
+        margin-top: 15px;
+    }
+    
+    .novo {
+        color: white;
+        margin-top: 5px;
+    }
+    
+    span {
+        color:#19CF15;
+        }
+    
+    
+        .ho {
+            font-size: 40px;
+            margin-left: 22px;
+            color: #FFC704;
+        }
+    
+        .icon {
+            font-size: 25px; 
+            font-weight: bold;
+    
+        }
+    
+    
+        
+        .subir:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .m {
+        color: #FFC704;
+        position: relative;
+        right: 75px;
+        margin-top: 40px;
+        }
+    
+        .loc:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .loca:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .it:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .caf:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        
+        .seg:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .botao-com-icone:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    .container { 
+        margin: 0; /* Remove a margem entre os botões */
+        text-align: center;
+        margin-top: -5px;
+        height: 65px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        display: flex;
+    }
+    ul {
+        list-style-type: none; /* Remove as bolinhas */
+        padding: 0; /* Remove o preenchimento padrão */
+        margin: 0; /* Remove a margem padrão */
+    }
+    li {
+        display: inline;
+      }
+
+/* Body */
+.subiu{
+    position: fixed;
+    bottom: 30px; /* Distância do topo */
+    left: 1400px; /* Distância da direita */
+    width: 150px; /* Largura da imagem */
+    z-index: 1000; /* Para garantir que a imagem fique sobre outros elementos */
+
+}
+.seta{
+    height: 40px;
+}
+.resto{
+    background-color: #E8DED4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth; /* Adiciona a transição suave */
+}
+a{
+    text-decoration: none;
+    color: #482304;
+}
+.titulo{
+    padding: 50px 650px;
+    height: 250px;
+    margin-top: 300px;
+}
+.subtitulo{
+    padding: 50px 650px;
+    height: 200px;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 100px;
+}
+.bt1{
+    font-family: 'medium';
+    color: #482304;
+    background-color: #FFC704;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 30px 50px 0px 60px;
+    font-weight: 100;
+}
+.bt2{
+    font-family: 'medium';
+    color: #482304;
+    background-color: #FFC704;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 30px 50px 0 0;
+    font-weight: 100;
+}
+.bt3{
+    font-family: 'medium';
+    color: #482304;
+    background-color: #FFC704;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 30px 50px 0 0;
+    font-weight: 100;
+}
+.bt4{
+    font-family: 'medium';
+    color: #482304;
+    background-color: #FFC704;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 30px 50px 0 0;
+}
+.Comidas{
+    display: flex;
+    flex-direction: row;
+}
+.comida{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    Width: 280px; 
+    Height: 508px;
+    background-color: #482304;
+    padding: 25px 25px 0px;
+    margin: 0px 100px;
+    cursor: pointer;
+}
+.imagem{
+    Width: 240px; 
+    Height: 230.4px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: #482304;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.Nome{
+    display: flex;
+    font-family: 'regular';
+    font-size: 30px;
+    color: #ffc704;
+    margin-bottom: 27px;
+    font-weight: 100;
+    width: 232px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.nome{
+    display: flex;
+    font-family: 'regular';
+    font-size: 30px;
+    color: #ffc704;
+    margin-bottom: 7px;
+    font-weight: 100;
+    width: 232px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.nome1{
+    display: flex;
+    font-family: 'regular';
+    font-size: 25px;
+    color: #ffc704;
+    margin-bottom: 7px;
+    font-weight: 100;
+    width: 232px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.Nome1{
+    display: flex;
+    font-family: 'regular';
+    font-size: 25px;
+    color: #ffc704;
+    margin-bottom: 27px;
+    font-weight: 100;
+    width: 232px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.tx{
+    display: flex;
+    align-items: baseline;
+    font-family: 'medium';
+    height: 35px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.descricao{
+    display: flex;
+    font-family: 'regular';
+    font-size: 17px;
+    color: #FFFFFF;
+    width: 227px;
+    height: 69px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.com{
+    Width: 220px; 
+    Height: 229.64px;
+    border-radius: 20px;
+    border: 2px solid #FFC704;
+    position: relative;
+    left: 10px;
+}
+.add{
+    font-family: 'bold';
+    color: #482304;
+    background-color: #FFC704;
+    height: 35px;
+    width: 180px;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.add:hover{
+    transform: scale(1.1); /* Aumenta o botão em 10% */
+}
+.divisao{
+    margin: 100px ;
+}
+
+.final{
+    color: transparent;
+    margin-bottom: 200px;
+}
+
+.tx1{
+    display: flex;
+    align-items: baseline;
+    font-family: 'medium';
+    height: 20px;
+    color: #D1C8C0;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+span{
+    color: #19CF15;
+    font-size: 20px; 
+    margin-left: 5px;
+}
+.coracoes{
+    background-color: transparent;
+    position: relative;
+    bottom: 85px;
+    right: 30px;
+    cursor: pointer;
+}
+.coracoes:hover{
+    transform: scale(1.1); /* Aumenta o botão em 10% */
+}
+
+/* Footer */
+footer{
+    background-color: #482304;
+    color: #ffc704;
+    display: flex;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: regular;
+}
+
+.logo{
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+
+.nossasRedes, .contatos, .nossaLocalizacao{
+    display: flex;
+    height: 450px;
+    width: 320px;
+    flex-direction: column;
+}
+
+.imgFooter{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+.localizacao, .tiktok, .instagram, .facebook, .x, .linkedin, .ifood, .whatsapp, .telefoneFooter, .emailFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tiktok{
+    width: 100px;
+    margin-top: 15px;
+}
+.instagram{
+    width: 100px;
+}
+.facebook{
+    width: 100px;
+}
+.x{
+    width: 70px;
+}
+.linkedin{
+    width: 120px;
+}
+.ifood{
+    width: 100px;
+}
+.informacoesFooter{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+p{
+    font-size: 20px;
+}
+.imgNossasRedes{
+    height: 35px;
+    width: 250px;
+}
+.imgContatos{
+    height: 40px;
+    width: 300px;
+}
+.imgLocalizacao{
+    height: 35px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.Imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.telefoneFooter{
+    width: 150px;
+}
+
+.whatsapp{
+    width: 200px;
+    margin-top: 15px;
+}
+.emailFooter{
+    width: 290px;
+}
+
+.linha-vertical{
+    border: 2px solid #ffc704;
+    height: 450px;
+}
+
+.outrasInformacoes{
+    display: flex;
+    width: 700px;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 100;
+    color: #FFC704;
+}
+
+.informacao{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 410px;
+}
+
+.linha-horizontal{
+    border: 2px solid #ffc704;
+    width: 1300px;
+}
+
+.info{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.imgFooter1{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter2{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter3{
+    height: 45px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}

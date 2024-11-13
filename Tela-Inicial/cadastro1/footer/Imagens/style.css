@@ -1,0 +1,187 @@
+@font-face {
+    font-family: AfacadFlux-Regular;
+    src: url("AfacadFlux-Regular.ttf");
+}
+
+@font-face {
+    font-family: LUMOS;
+    src: url("LUMOS.TTF");
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: AfacadFlux-Regular;
+}
+
+footer{
+    background-color: #482304;
+    color: #ffc704;
+    display: flex;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+
+.nossasRedes, .contatos, .nossaLocalizacao{
+    display: flex;
+    height: 450px;
+    width: 320px;
+    flex-direction: column;
+}
+
+.imgFooter{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.copyright{
+    height: 15px;
+    width: 15px;
+}
+
+.localizacao, .tiktok, .instagram, .facebook, .x, .linkedin, .ifood, .whatsapp, .telefoneFooter, .emailFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tiktok{
+    width: 100px;
+    margin-top: 15px;
+}
+
+.instagram{
+    width: 100px;
+}
+
+.facebook{
+    width: 100px;
+}
+
+.x{
+    width: 70px;
+}
+
+.linkedin{
+    width: 120px;
+}
+
+.ifood{
+    width: 100px;
+}
+
+.informacoesFooter{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 20px;
+}
+
+.imgNossasRedes{
+    height: 35px;
+    width: 250px;
+}
+
+.imgContatos{
+    height: 40px;
+    width: 300px;
+}
+
+.imgLocalizacao{
+    height: 35px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.telefoneFooter{
+    width: 150px;
+}
+
+.whatsapp{
+    width: 200px;
+    margin-top: 15px;
+}
+
+.emailFooter{
+    width: 290px;
+}
+
+.linha-vertical{
+    border: 2px solid #ffc704;
+    height: 450px;
+}
+
+.outrasInformacoes{
+    display: flex;
+    width: 700px;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.informacao{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.linha-horizontal{
+    border: 2px solid #ffc704;
+    width: 1300px;
+}
+
+.info{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.imgFooter1{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter2{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.imgFooter3{
+    height: 45px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}

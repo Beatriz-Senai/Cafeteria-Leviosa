@@ -1,0 +1,198 @@
+
+@font-face {
+    font-family: 'regular'; /* É a fonte que usa, se já tiver não colocar de novo*/
+    src: url(AfacadFlux-Regular.ttf);
+}
+
+.Menu {
+    background-color: #482304; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 250px;
+    }
+    .teste{
+        position: fixed;
+     z-index: 1000; /* Para garantir que a imagem fique sobre outros elementos */
+     width: 100%;
+     bottom: 500px;
+    }
+    .logo {
+    align-items:center;
+    justify-content: center;
+    margin-top: 65px;
+    }
+    .itens {
+    display: flex;
+    margin-right: 90px;
+    margin-top: 40px;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    }
+    .porta {
+    display:flex;
+    margin-left: 90px; 
+    margin-top: 40px;
+    }
+    .entrar {
+    display: flex;
+    margin-right: 70px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: 'regular';/* Mudar o nome da fonte para como vc escreveu*/
+    cursor: pointer;
+    }
+    .cadastrar {
+        display: flex;
+        margin-right: 70px;
+        margin-top: 40px;
+        border: 1px solid #ffc704;
+        background-color: #ffc704;
+        border-radius: 20px;
+        padding: 9px;
+        width: 165px;
+        display: inline-block;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'regular';/* Mudar o nome da fonte para como vc escreveu*/
+        }
+    bt{
+        font-family: 'bold';/* Mudar o nome da fonte para como vc escreveu*/
+        color: #482304;
+        background-color: #FFC704;
+        width: 186px;
+        height: 38.4px;
+        border-radius: 40px;
+        font-size: 20.6px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -19px;
+    }
+    nav a {
+    margin: 0 30px;
+    background-color: #482304;
+    color: #FFC704;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 140px;
+    font-family: 'regular';/* Mudar o nome da fonte para como vc escreveu*/
+    font-size: 23px;
+    }
+    .cadastrar:hover {
+        color: white;
+        box-shadow: inset 0 4px 15px -5px rgba(0, 0, 0, 0.7); /* 
+        inset: faz a sombra parecer interna
+        0: deslocamento horizontal (sem deslocamento)
+        4px: deslocamento da sombra para baixo
+        15px: raio de desfoque da sombra (aumentado para suavizar)
+        -5px: valor negativo para contrair a sombra para dentro
+        rgba(0, 0, 0, 0.7): cor da sombra (preto com 70% de opacidade)
+    */
+    }
+    
+    .promo1 {
+        font-family:'regular';/* Mudar o nome da fonte para como vc escreveu*/
+        font-weight: 600;
+            color: #ffc704;
+            }
+    
+    .tx{
+        display: flex;
+        height: 10px;
+        color: white;
+        margin-top: 30px;
+        font-family: 'regular';/* Mudar o nome da fonte para como vc escreveu*/
+    }
+    .taxado {
+        color: white;
+        margin-top: 15px;
+    }
+    
+    .novo {
+        color: white;
+        margin-top: 5px;
+    }
+    
+    span {
+        color:#19CF15;
+        }
+    
+    
+        .ho {
+            font-size: 40px;
+            margin-left: 22px;
+            color: #FFC704;
+        }
+    
+        .icon {
+            font-size: 25px; 
+            font-weight: bold;
+    
+        }
+    
+    
+        
+        .subir:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .m {
+        color: #FFC704;
+        position: relative;
+        right: 75px;
+        margin-top: 40px;
+        }
+    
+        .loc:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .loca:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .it:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .caf:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        
+        .seg:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    
+        .botao-com-icone:hover {
+            transform: scale(1.1); /* Aumenta o botão em 10% */
+        }
+    .container { 
+        margin: 0; /* Remove a margem entre os botões */
+        text-align: center;
+        margin-top: -5px;
+        height: 65px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        display: flex;
+    }
+    a {
+        text-decoration:none;
+        color:#ffc704;
+        margin-right: 35px;
+    }
+    ul {
+        list-style-type: none; /* Remove as bolinhas */
+        padding: 0; /* Remove o preenchimento padrão */
+        margin: 0; /* Remove a margem padrão */
+    }
+    li {
+        display: inline;
+      }
